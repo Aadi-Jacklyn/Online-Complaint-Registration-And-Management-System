@@ -1,15 +1,5 @@
-Backend Development
-The backend is developed using Node.js and Express.js.
-
-Setup Backend
-Install Dependencies
-
-Code:
-npm init -y
-npm install express mongoose body-parser cors dotenv bcrypt jsonwebtoken
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 server.js
-Code:
+//Code:
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
